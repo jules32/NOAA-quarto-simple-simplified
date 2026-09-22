@@ -8,14 +8,8 @@ website:
   repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
-  
-  page-footer:
-    right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; CC-1.0"
-  
+    
   sidebar:
-    background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
     favicon: images/favicon.ico
     pinned: true
     align: center
@@ -48,16 +42,6 @@ website:
 
 format:
   html:
-    theme:
-      light: [cosmo, theme.scss] 
-      dark: [cosmo, theme-dark.scss]
-    code-copy: true
-    code-overflow: wrap
     toc: true
-
-
-filters:
-  - include-files.lua
-  - quarto
 
   
